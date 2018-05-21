@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import { withRouter } from "react-router";
 import {bindActionCreators} from 'redux';
-import * as userManagementActions from '../../core/usermanagement/usermanagement-actions';
+import * as userManagementActions from '../../core/usermgnt/usermgnt-actions';
 import fuLogger from '../../core/common/fu-logger';
 import LogoutView from '../../memberView/logout/logout-view';
 

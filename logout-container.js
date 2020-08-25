@@ -18,10 +18,8 @@ class LogoutContainer extends Component {
 	}
 
 	componentDidMount() {
-		let r = this.props.actions.logout();
-		r.then( () => {
-			this.props.history.replace("/");
-		});
+		fuLogger.log({level:'TRACE',loc:'LogoutContainer::mount',msg:"Logging out"});
+		this.props.actions.logout();
 	}
 
   render() {

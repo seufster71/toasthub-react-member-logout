@@ -2,7 +2,7 @@
 * Author Edward Seufert
 */
 'use-strict';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate, useLocation } from "react-router-dom";
 import * as actions from '../../core/usermgnt/usermgnt-actions';
